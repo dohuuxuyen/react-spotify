@@ -1,0 +1,14 @@
+import React from "react";
+
+const Home = () => {
+  return (
+    <div>
+      <div className="text-center my-8">
+        <h1 className="text-[50px] font-medium  mb-3">Live anywhere</h1>
+        <p className="text-[20px] opacity-50 ">Keep calm & travel on</p>
+      </div>
+    </div>
+  );
+};
+
+export default Home;

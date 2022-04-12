@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    @apply bg-[#15023A] text-[#fff];
+}
+
+.navbar {
+    @apply h-[70px] text-[#15023A] bg-[#fff];
+}

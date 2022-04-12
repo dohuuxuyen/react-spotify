@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    @apply bg-[#15023A] text-[#fff];
+}
+.active > .menu > span {
+    @apply bg-[#fff]
+}

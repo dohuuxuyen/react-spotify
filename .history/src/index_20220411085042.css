@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    @apply bg-[#15023A] text-[#fff];
+}
+
+
+
+.active .menuXx span:first-child {
+    @apply bg-[#fff] rotate-[45deg] 
+}
+.active .menuXx span:nth-child(2) {
+    @apply opacity-0
+}
+.active .menuXx span:last-child {
+    @apply bg-[#fff] rotate-[-45deg] 
+}

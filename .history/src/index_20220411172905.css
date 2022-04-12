@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rhap_time {
+    @apply text-[#fff]
+}
